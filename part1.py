@@ -62,7 +62,7 @@ def print_results(res):
                 print(".")
 
     print ("\n\n# Final results: \n\
-        \nMinimum [x1,x2]:", res[(len(res)-1)][0], "\
+        \nMinimiser x:\t", res[(len(res)-1)][0], "\
         \nMinimum f: \t", res[(len(res)-1)][1],"\
         \nIterations:\t", len(res)-1, "\n")
 
